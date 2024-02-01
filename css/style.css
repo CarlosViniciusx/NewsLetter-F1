@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  background-color: black;
+}
+
+/* Menu */
+
+.header {
+  background-color: #333;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  border-bottom: 4px solid red;
+}
+
+.logo img {
+  width: 150px;
+}
+
+/* NewsLetter */
+
+.apresentacao {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 10px 0px;
+  border-bottom: 4px solid red;
+}
+
+.container-texto {
+  flex: 1 1 300px;
+  display: flex;
+  margin-top: 10px;
+  padding: 50px;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-texto h1 {
+  font-size: 2.5rem;
+}
+
+.container-texto p {
+  max-width: 400px;
+}
+
+.imagem {
+  display: flex;
+  flex: 1 1 200px;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+.form-newsletter {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form-newsletter label {
+  margin-top: 10px;
+  font-size: 1.125rem;
+}
+
+.form-newsletter input {
+  padding: 8px 80px 8px 5px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.form-newsletter button {
+  border: none;
+  background-color: red;
+  padding: 5px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+  .apresentacao {
+    flex-direction: column;
+  }
+}
+
+/* Vantagens */
+
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.vantagens h2 {
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.cards-vantagens {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 70px;
+  margin: 0px 100px;
+  justify-content: space-around;
+}
+
+.card {
+  border: 3px solid red;
+  flex: 1 1 280px;
+  padding: 25px;
+  border-radius: 15px;
+  height: 500px;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Footer */
+
+.footer {
+  border-top: 4px solid red;
+  background-color: #333;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.footer h1 {
+  padding: 50px;
+}
